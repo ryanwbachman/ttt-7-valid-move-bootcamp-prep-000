@@ -3,7 +3,7 @@ def valid_move?(board, index)
   if position_taken?(board,index)
     "That postion is already taken. Please select another positon."
   else
-    move(board, index)
+    "move(board, index)"
   end
 end
 
